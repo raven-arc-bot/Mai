@@ -1,6 +1,6 @@
 const { green, yellow, red, magenta, cyan } = require('chalk')
 const mongoose = require('mongoose');
-const connector = `mongodb://botAdmin:${process.env.MAIDB}@botdev-shard-00-00-pblka.mongodb.net:27017,botdev-shard-00-01-pblka.mongodb.net:27017,botdev-shard-00-02-pblka.mongodb.net:27017/MaiDocs?replicaSet=BotDev-shard-0&ssl=true&authSource=admin`
+const connector = `mongodb+srv://Raven:${process.env.MAIDB}@cluster0.xn7sl.mongodb.net/<dbname>?retryWrites=true&w=majority`
 
 module.exports = {
   init:() => {
