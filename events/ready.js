@@ -14,7 +14,7 @@ module.exports = client => {
 
   }
 
-  client.user.setActivity('Seishun Buta Yarou',{
+  client.user.setActivity('RavenBot, made with Mai',{
 
     type: 'STREAMING',
     url: 'https://twitch.tv/sby'
