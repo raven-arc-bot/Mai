@@ -23,7 +23,7 @@ module.exports = {
     .setColor('GREY')
     .setThumbnail(client.user.displayAvatarURL({ format: 'png', dynamic: true }))
     .setFooter(`Created with ❤ by Sakurajimai#6742`)
-    .setDescription(`Hi! I'm **${client.user.username}** and I am a bot based\n\around anime <Specially Aobuta>\n\All my commands start with the prefix \`${prefix}\`!`)
+    .setDescription(`Hi! I'm **${client.user.username}** and I am a bot based\n\around anime. I use Mai's source code as my backend. You can view Mai's docs on https://mai-san.ml/ \n\All my commands start with the prefix \`${prefix}\`!`)
     .addField('\u200B', `Use \`${ prefix }cmd\` to see a list of my commands.\nYou can also use \`${ prefix }help [command]\` to get help on a specific command.`)
     .addField('\u200B', `Mai [Github Repository](${repo}) | [Website](${website})`)
 
