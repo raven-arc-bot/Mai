@@ -1,6 +1,6 @@
 {
   "default": {
-    "prefix": "m!"
+    "prefix": "!"
   },
   "user": {
     "owner": "545427431662682112"
@@ -8,8 +8,8 @@
   "channel": {
   },
   "commanddir": ["action","anime","bot","core","fun","games","economy","moderation","music","owner","setup","utility"],
-  "website" : "https://maisans-maid.github.io/mai.moe/",
-  "repo" : "https://github.com/maisans-maid/Mai#readme",
+  "website" : "https://mai-san.ml/",
+  "repo" : "https://github.com/raven-arc-bot/Mai",
   "prodtoken" : "-",
   "supportmail": "maimaimaimaimai.123123123@gmail.com"
 }
